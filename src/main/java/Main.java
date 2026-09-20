@@ -67,8 +67,9 @@ public class Main {
             System.out.println("Enter new product name: ");
             String newProductName = inputString.nextLine();
             productList.set(updateIndex, newProductName);
+            System.out.println("Update complete");
         }
-        System.out.println("Update complete");
+
 
     }
 
@@ -81,8 +82,9 @@ public class Main {
             System.out.println("Product doesn't exist!");
         }else {
             productList.remove(removeIndex);
+            System.out.println("Remove completed");
         }
-        System.out.println("Remove completed");
+
     }
 
     public static void main(String[] args) {
